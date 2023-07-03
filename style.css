@@ -1,0 +1,121 @@
+body{background-color:#FFFFFF;
+    width: 1600px;
+    height: 1879px;
+    top: -3267px;
+    left: -2206px;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;}
+button.pointer {cursor: pointer;}
+button:hover{background-color: blue;}
+a:hover{background-color: green;}
+
+.up-web-studio{font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 145px;
+height: 31px;
+top: 24px;
+left: 215px
+
+    }
+.up-studio{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 42px;
+height: 16px;
+top: 32px;
+left: 453px
+
+    }
+.up-portofolio{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 58px;
+height: 16px;
+top: 32px;
+left: 545px
+
+    }
+.up-contacts{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 59px;
+height: 16px;
+top: 32px;
+left: 653px
+
+    }
+p.up-email:hover {background-color: red;}
+.up-email{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1088px
+    }
+p.up-phone-number:hover{background-color: rosybrown;}
+.up-phone-number{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1088px   }
+
+
+.down-web-studio{font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+
+p.down-adress a:focus {color: yellow;}
+p.down-adress a:hover {background-color: red;}
+.down-adress {font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+
+em.down-email a:hover {background-color: red;}
+em.down-email a:focus {color: brown;}
+.down-email{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+
+em.down-phone-number a:hover{background-color: rosybrown;}
+em.down-phone-number a:focus{color: black;}
+.down-phone-number {font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
