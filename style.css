@@ -15,11 +15,9 @@ ul{list-style: none;}
 .head{
     margin: auto;
     display: flex;
-  justify-content: center;
 width: 1600px;
 height: 80px;
-border: 1px;
-word-spacing: 30px;}
+border: 1px;}
 
 .main-body{
     width: 1600px;
@@ -32,15 +30,38 @@ word-spacing: 30px;}
     display: flex;
     width: 516px;
     height: 38px;
-    top: 100px;
+    top: 174px;
     left: 542px;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%}
-    
+    border-radius: 4px}
+.all{
+    width: 64px;
+height: 38px;
+top: 174px;
+left: 542px;
+border-radius: 4px;}
+.website{
+    width: 120px;
+height: 38px;
+top: 174px;
+left: 614px;
+border-radius: 4px;
+}
+.apps{width: 83px;
+    height: 38px;
+    top: 174px;
+    left: 742px;
+    border-radius: 4px;}
+.design{width: 96px;
+    height: 38px;
+    top: 174px;
+    left: 833px;
+    border-radius: 4px}
+.marketing{width: 121px;
+    height: 38px;
+    top: 174px;
+    left: 937px;
+    border-radius: 4px}
 
-    
 .first-body-pics{
 display: flex;}
 
