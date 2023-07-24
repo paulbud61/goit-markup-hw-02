@@ -12,6 +12,13 @@ a:hover{background-color: green;}
 
 ul{list-style: none;}
 
+.contacts-up{width: 700px;
+    height: 16px;
+    top: 32px;
+    left: 102px;
+    display: flex;
+    }
+
 .head{
     margin: auto;
     display: flex;
@@ -27,36 +34,37 @@ border: 1px;}
     border: 1px}
 
 .top-filters{
+  justify-content: center;
     display: flex;
-    width: 516px;
+    width: 1200px;
     height: 38px;
     top: 174px;
     left: 542px;
     border-radius: 4px}
 .all{
-    width: 64px;
+    
 height: 38px;
 top: 174px;
 left: 542px;
 border-radius: 4px;}
 .website{
-    width: 120px;
+    
 height: 38px;
 top: 174px;
 left: 614px;
 border-radius: 4px;
 }
-.apps{width: 83px;
+.apps{
     height: 38px;
     top: 174px;
     left: 742px;
     border-radius: 4px;}
-.design{width: 96px;
+.design{
     height: 38px;
     top: 174px;
     left: 833px;
     border-radius: 4px}
-.marketing{width: 121px;
+.marketing{
     height: 38px;
     top: 174px;
     left: 937px;
@@ -471,3 +479,24 @@ em.down-phone-number a:focus{color: black;}
     letter-spacing: 0.03em;
     text-align: left;
     }
+.FIND-US-ON{width: 1600px;
+        height: 80px;
+        top: 2754px;
+        left: 516px}
+    
+.FIND-US{
+        height: 16px;
+        top: 2754px;
+        left: 516px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #FFFFFF;}
+.social-footer{
+        height: 44px;
+        top: 2790px;
+        left: 516px;
+    text-align: center;}
