@@ -4,7 +4,9 @@ body{background-color:#FFFFFF;
     top: -3267px;
     left: -2206px;
     font-family: 'Roboto', sans-serif;
-    color: #212121;}
+    color: #212121;
+    max-width: 100%;
+    margin: auto;}
     
 button.pointer {cursor: pointer;}
 button:hover{background-color: blue;}
@@ -12,12 +14,8 @@ a:hover{background-color: green;}
 
 ul{list-style: none;}
 
-.contacts-up{width: 700px;
-    height: 16px;
-    top: 32px;
-    left: 102px;
-    display: flex;
-    }
+.contacts-up{display: flex;
+margin-left: 300px;}
 
 .head{
     margin: auto;
@@ -25,6 +23,29 @@ ul{list-style: none;}
 width: 1600px;
 height: 80px;
 border: 1px;}
+
+.li-contacts-up{margin-right: 50px;}
+
+.img-contacts{display: flex;
+    margin-right: 10px;}
+
+.div-head{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px}
+
+.nav{display: flex;
+    align-items: center;
+    }
+
+.ul-head{display: flex;}
+
+.li-head{
+    margin-right:60px;
+}
 
 .main-body{
     width: 1600px;
@@ -40,7 +61,54 @@ border: 1px;}
     height: 38px;
     top: 174px;
     left: 542px;
-    border-radius: 4px}
+    border-radius: 4px;
+    padding-top: 94px;
+    border: 1px solid transparent;
+    margin-left: 60px;
+}
+
+.top-filters-section{
+    display: flex;
+    
+}
+.top-filters-div{display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portofolio-button{width: 64px;
+    height: 38px;
+    top: 174px;
+    left: 542px;
+    border: 1px solid transparent;    
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+background: #2196F3;
+color: #FFFFFF;
+margin-right: 6px;}
+
+.portofolio-button2{
+    margin-right: 6px;
+    width: 120px;
+height: 38px;
+top: 174px;
+left: 614px;
+border-radius: 4px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+border: 1px solid transparent;
+text-align: center;
+color: #212121;
+background: #F5F4FA;
+}
+
 .all{
     
 height: 38px;
@@ -70,6 +138,12 @@ border-radius: 4px;
     left: 937px;
     border-radius: 4px}
 
+.div-body-pics{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .first-body-pics{
 display: flex;}
 
@@ -78,7 +152,8 @@ display: flex;}
 height: 404px;
 top: 262px;
 left: 215px;
-border: 1px;}
+border: 1px;
+margin: 20px;}
 .first-pic{
     width: 370px;
 height: 294px;
@@ -112,7 +187,8 @@ width: 370px;
 height: 404px;
 top: 262px;
 left: 615px;
-border: 1px;}
+border: 1px;
+margin: 20px;}
 .second-pic{width: 370px;
     height: 294px;
     top: 262px;
@@ -146,7 +222,8 @@ color: #757575;}
 height: 404px;
 top: 262px;
 left: 1015px;
-border: 1px}
+border: 1px;
+margin: 20px;}
 .third-pic{width: 370px;
     height: 294px;
     top: 262px;
@@ -178,7 +255,8 @@ color: #757575;}
 height: 404px;
 top: 696px;
 left: 215px;
-border: 1px;}
+border: 1px;
+margin: 20px;}
 .fourth-pic{width: 370px;
     height: 294px;
     top: 696px;
@@ -208,7 +286,8 @@ color: #757575;}
     height: 404px;
     top: 696px;
     left: 615px;
-    border: 1px;}
+    border: 1px;
+    margin: 20px;}
 .fifth-pic{width: 370px;
     height: 294px;
     top: 696px;
@@ -239,7 +318,8 @@ color: #757575;}
     height: 404px;
     top: 696px;
     left: 1015px;
-    border: 1px}
+    border: 1px;
+    margin: 20px;}
 .sixth-pic{width: 370px;
     height: 294px;
     top: 696px;
@@ -271,7 +351,8 @@ color: #757575;}
 height: 404px;
 top: 1130px;
 left: 215px;
-border: 1px}
+border: 1px;
+margin: 20px;}
 .seventh-pic{width: 370px;
     height: 294px;
     top: 1130px;
@@ -303,6 +384,7 @@ color: #757575;}
     top: 1130px;
     left: 615px;
     border: 1px;
+    margin: 20px;
     }
 .eight-pic{width: 370px;
     height: 294px;
@@ -335,7 +417,8 @@ color: #757575;}
 height: 404px;
 top: 1130px;
 left: 1015px;
-border: 1px}
+border: 1px;
+margin: 20px;}
 .ninth-pic{width: 370px;
     height: 294px;
     top: 1130px;
@@ -363,10 +446,13 @@ text-align: left;
 color: #757575;
 }
 
-.down{width: 1600px;
+.down{
+    width: 1600px;
     height: 251px;
     top: 1628px;
-    background: #2F303A;}
+    display: block;
+    background-color: #2f303a;
+}
 
     
 .up-web-studio{font-family: Raleway;
@@ -427,7 +513,8 @@ p.up-email:hover {background-color: red;}
     width: 135px;
     height: 16px;
     top: 32px;
-    left: 1088px
+    left: 1088px;
+    display: flex;
     }
 p.up-phone-number:hover{background-color: rosybrown;}
 .up-phone-number{font-family: Roboto;
@@ -439,7 +526,8 @@ p.up-phone-number:hover{background-color: rosybrown;}
     width: 1600px;
     height: 16px;
     top: 32px;
-    left: 1088px   }
+    left: 1088px;
+display: flex;  }
 
 
 .down-web-studio{font-family: Raleway;
@@ -448,6 +536,9 @@ p.up-phone-number:hover{background-color: rosybrown;}
     line-height: 31px;
     letter-spacing: 0.03em;
     text-align: left;
+    margin-bottom: 10px;
+    display: block;
+    width: 145px;
     }
 
 p.down-adress a:focus {color: yellow;}
@@ -479,24 +570,40 @@ em.down-phone-number a:focus{color: black;}
     letter-spacing: 0.03em;
     text-align: left;
     }
-.FIND-US-ON{width: 1600px;
-        height: 80px;
-        top: 2754px;
-        left: 516px}
+.FIND-US-ON{width: 206px;
+    height: 80px;
+    top: 1703px;
+    left: 516px   ; 
+    margin-right: 900px;}
     
 .FIND-US{
-        height: 16px;
-        top: 2754px;
-        left: 516px;
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: #FFFFFF;}
+    width: 7150px;
+    height: 16px;
+    top: 1703px;
+    left: 516px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+display: block;
+    }
 .social-footer{
         height: 44px;
         top: 2790px;
         left: 516px;
-    text-align: center;}
+    text-align: center;
+    padding: 60px 0px;}
+
+.div-footer{display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.ul-footer-contacts{
+    width: 231px;
+    height: 72px;
+    top: 1747px;
+    left: 215px;
+    margin-left: 170px;
+    }
