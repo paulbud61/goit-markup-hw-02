@@ -607,3 +607,50 @@ display: block;
     left: 215px;
     margin-left: 170px;
     }
+
+    .box {
+        position: relative;
+        width: 370px;
+        height: 294px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 370px;
+        height: 294px;
+        background: #2196F3E5;
+        transform: translatey(100%);
+        transition: transform 250ms ease-in-out;
+        }
+        
+        .box:hover .overlay {
+            transform: translatey(0);
+          }
+          .overlay p {
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+          }
+          .overlay code {
+            display: inline-block;
+            padding: 2px 4px;
+            border-radius: 2px;
+            background-color: #fff;
+            color: #2a2a2a;
+          }
+
+.first-effect{width: 322px;
+    height: 140px;
+    top: 325px;
+    left: 239px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.03em;
+justify-content: center;
+text-align: left}
