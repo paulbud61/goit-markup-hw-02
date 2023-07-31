@@ -9,8 +9,12 @@ body{background-color:#FFFFFF;
     margin: auto;}
     
 button.pointer {cursor: pointer;}
-button:hover{background-color: blue;}
-a:hover{background-color: green;}
+button:hover{background: #2196F3;
+    opacity: 1;
+    transition: 0.3s;}
+a:hover{background: #2196F3;
+    opacity: 1;
+    transition: 0.3s;}
 
 ul{list-style: none;}
 
@@ -22,7 +26,7 @@ margin-left: 300px;}
     display: flex;
 width: 1600px;
 height: 80px;
-border: 1px;}
+border: 1px solid #ECECEC}
 
 .li-contacts-up{margin-right: 50px;}
 
@@ -479,6 +483,24 @@ top: 24px;
 left: 215px
 
     }
+
+    .current{
+        position: relative;
+        color: #2196F3;
+    }
+
+    .current::after{
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: -32px;
+        height: 4px;
+        border-radius: 2px;
+        width: 100%;
+        background: #2196F3;
+        margin-top: 10px;
+    }
+
 .up-studio{font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -499,8 +521,7 @@ left: 453px
     text-align: left;
     width: 58px;
 height: 16px;
-top: 32px;
-left: 545px
+
 
     }
 .up-contacts{font-family: Roboto;
@@ -535,7 +556,7 @@ p.up-phone-number:hover{background-color: rosybrown;}
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: left;
-    width: 1600px;
+    width: 150px;
     height: 16px;
     top: 32px;
     left: 1088px;
