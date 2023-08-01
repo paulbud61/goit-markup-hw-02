@@ -6,7 +6,7 @@ body{background-color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
     color: #212121;
     max-width: 100%;
-    margin: auto;}
+    margin: auto;;}
     
 button.pointer {cursor: pointer;}
 button:hover{background: #2196F3;
