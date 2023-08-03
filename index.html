@@ -129,12 +129,12 @@
 
   <footer class="container down">
     <div class="div-footer">
-        <ul class="ul-footer-contacts">
-            <li><img class="down-web-studio" src="images/WebStudio (1).png" width="100px" alt=""></li>
-            <li><p class="down-adress"><a href="695 Park Ave, NY 10065, USA" style="color: #FFFFFF">695 Park Ave, NY 10065, USA</a></p> </li>
-            <li><em class="down-email"><a href="info@devstudio.com" style="color:#FFFFFF99">info@devstudio.com</a></em> </li>
-            <li><em class="down-phone-number"><a href="+1 212-772-4150" style="color:#FFFFFF99">+1 212-772-4150</a></em> </li>
-        </ul>
+        <div class="ul-footer-contacts">
+            <img class="down-web-studio" src="images/WebStudio (1).png" width="100px" alt="">
+            <p class="down-adress"><a href="695 Park Ave, NY 10065, USA" style="color: #FFFFFF">695 Park Ave, NY 10065, USA</a></p>
+            <em class="down-email"><a href="info@devstudio.com" style="color:#FFFFFF99">info@devstudio.com</a></em> 
+            <em class="down-phone-number"><a href="+1 212-772-4150" style="color:#FFFFFF99">+1 212-772-4150</a></em> 
+        </div>
     
         <div class="FIND-US-ON">
         <h3 class="FIND-US">FIND US ON</h3>
@@ -143,8 +143,21 @@
             <img class="twitter-1" src="images/icons.svg/twitter.svg" alt="">
             <img class="facebook-1" src="images/icons.svg/facebook.svg" alt="">
             <img class="linkedln-1" src="images/icons.svg/linkedln.svg" alt="">
-        </ul>
         </div>
+        <div class="form-footer">
+            <p class="form-text">Subscribe to the newsletter</p>
+            <form class="footer-form-email">
+                <label class="footer-label">
+                    <input class="footer-input" type="email" name="email" placeholder="E-mail">
+                </label>
+        
+                <button class="footer-form-btn" type="submit">Subscribe
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="/images/icons.svg/symbol-defs.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+                </form>
+                </div>
     </div>
   </footer>
 

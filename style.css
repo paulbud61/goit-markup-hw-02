@@ -605,11 +605,10 @@ em.down-phone-number a:focus{color: black;}
 .FIND-US-ON{width: 206px;
     height: 80px;
     top: 1703px;
-    left: 516px   ; 
-    margin-right: 900px;}
+    left: 516px   ; }
     
 .FIND-US{
-    width: 7150px;
+    width: 100px;
     height: 16px;
     top: 1703px;
     left: 516px;
@@ -621,17 +620,20 @@ letter-spacing: 0.03em;
 text-align: left;
 color: #FFFFFF;
 display: block;
+padding-left: 60px;
     }
 .social-footer{
-        height: 44px;
-        top: 2790px;
-        left: 516px;
+    width: 206px;
+    height: 44px;
+    top: 1739px;
+    left: 516px ;   
     text-align: center;
-    padding: 60px 0px;}
+    display: flex;}
 
 .div-footer{display: flex;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    padding-top: 40px;}
 .ul-footer-contacts{
     width: 231px;
     height: 72px;
@@ -690,3 +692,52 @@ line-height: 28px;
 letter-spacing: 0.03em;
 justify-content: center;
 text-align: left}
+
+.form-footer{padding-left: 93px;
+    margin-top: 25px;
+    width: 700px;
+height: 86px;
+top: 1700px;
+left: 815px;
+border-radius: 4px;
+
+}
+.form-text{
+    color: #FFF;
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.footer-input{width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;}
+
+.footer-form-btn{
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 4px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin-left: 12px;
+}
+.footer-icon{
+    fill: #FFF;
+    margin-left: 13px;
+}
